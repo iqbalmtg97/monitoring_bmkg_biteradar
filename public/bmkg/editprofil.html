@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>RADAR | Edit Profil</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/tambahan.css" rel="stylesheet">
+	<link rel="icon" type="images/png" href="images/icon.png" />
+  </head>
+  <body>  
+   <div class="container-fluid"> 
+	<div class="row">
+		<div class="col-md-3 col-sm-3">
+			<br><img src="images/bmkg.png" width="90px" height="90px" style="display: block; margin: auto;">
+		</div>
+		<div class="col-md-9 col-sm-9">
+			<h3>
+				<br>SISTEM MONITORING BUILT-IN-TEST EQUIPMENT(BITE) 
+				<br>RADAR CUACA ENTERPRISE-ELECTRONICS-CORPORATION(EEC)
+			</h3>
+		</div>
+	</div>
+	<br>
+	<hr>
+	<div class="container-fluid"> 
+	<div class="row">
+				<div class="col-md-2 col-sm-2">
+		<!-- Menampilkan Hari, Bulan dan Tahun -->
+		<script type='text/javascript'>
+			<!--
+			var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+			var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
+			var date = new Date();
+			var day = date.getDate();
+			var month = date.getMonth();
+			var thisDay = date.getDay(),
+			    thisDay = myDays[thisDay];
+			var yy = date.getYear();
+			var year = (yy < 1000) ? yy + 1900 : yy;
+			document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
+			//-->
+		</script>
+	<div id="clock"></div>
+		<script type="text/javascript">
+		<!--
+		function showTime() {
+		    var a_p = "";
+		    var today = new Date();
+		    var curr_hour = today.getHours();
+		    var curr_minute = today.getMinutes();
+		    var curr_second = today.getSeconds();
+		    if (curr_hour < 12) {
+		        a_p = "AM";
+		    } else {
+		        a_p = "PM";
+		    }
+		    if (curr_hour == 0) {
+		        curr_hour = 12;
+		    }
+		    if (curr_hour > 12) {
+		        curr_hour = curr_hour - 12;
+		    }
+		    curr_hour = checkTime(curr_hour);
+		    curr_minute = checkTime(curr_minute);
+		    curr_second = checkTime(curr_second);
+		 document.getElementById('clock').innerHTML=curr_hour + ":" + curr_minute + ":" + curr_second + " " + a_p;
+		    }
+ 
+		function checkTime(i) {
+		    if (i < 10) {
+		        i = "0" + i;
+		    }
+		    return i;
+		}
+		setInterval(showTime, 500);
+		//-->
+		</script>
+		</div>
+		<div class="col-md-8 col-sm-8"><h4><center>Perubahan Data Pengguna</h4></center></div>
+		<div class="col-md-1 col-sm-1">
+			<div class="btn-group" role="group" aria-label="Basic example">
+  			<a class="btn btn-secondary" href="admin.html" role="button">Home</button>
+ 			<a class="btn btn-secondary" href="login1.html" role="button">Logout !</a></button>
+			</div></div>
+</div>
+		</div>
+
+	<div class="row">
+			<div class="col-md-3 col-sm-3">
+			<br>
+			<center><div class="btn-group-vertical">
+  				<button type="button" class="btn btn-dark btn-sm" style="display: block; margin: auto;">
+				<a class="btn btn-dark btn-sm" href="login1.html" role="button">BITE RADAR</a></button>
+				<br><button type="button" class="btn btn-dark btn-sm" style="display: block; margin: auto;">
+				<a class="btn btn-dark btn-sm" href="login1.html" role="button"> LAPORAN </a></button>
+				<br><button type="button" class="btn btn-dark btn-sm" style="display: block; margin: auto;">
+				<a class="btn btn-dark btn-sm" href="login1.html" role="button"> DATABASE </a></button>
+				<br><button type="button" class="btn btn-dark btn-sm" style="display: block; margin: auto;">
+				<a class="btn btn-dark btn-sm" href="editprofil.html" role="button">EDIT PROFIL</a></button>
+				
+			</div></center>
+			</div>
+
+			<div class="col-md-7 col-sm-7">
+  <div class="form-control-sm">
+    <label for="username">Username</label>
+    <input type="text" class="form-control" id="uname" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+  <div class="form-control-sm">
+    <label for="password">Password</label>
+    <input type="password" class="form-control" id="Pw" placeholder="Password">
+  </div>
+   <div class="form-control-sm">
+   	<label for="Nama">Nama Lengkap</label>
+    <input type="text" class="form-control" id="nama" placeholder="Nama Lengkap">
+   </div>
+   <div class="form-control-sm">
+   	<label for="Nohp">No Handphone</label>
+    <input type="text" class="form-control" id="nohp" placeholder="No Handphone">
+   </div>
+  <button type="submit" class="btn btn-primary btn-sm">KIRIM</button>
+</form></div>
+			<div class="col-md-2 col-sm-2"></div>
+			</div>
+	<div class="row">
+		<div class="col-md-12 col-sm-12">
+			 <center><p class="mt-5 mb-3 text-muted">&copy; 2020-Radar EEC BMKG</p></center>
+		</div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js">
+    </script>
+  </body>
+</html>

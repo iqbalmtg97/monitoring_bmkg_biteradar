@@ -1,0 +1,18 @@
+.eok{text-align: center;}
+.ps{text-align: center;}
+.jumbotron{background-color:rgb(220, 195, 156);}
+.dt{background-color:rgb(155, 201, 255);}
+body {
+    /* background-image: url("img/background1.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Segoe UI;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-color: white;
+}

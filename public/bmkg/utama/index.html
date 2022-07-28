@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>RADAR | BMKG</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/tambahan.css" rel="stylesheet">
+	<link rel="icon" type="images/png" href="images/icon.png" />
+  </head>
+  <body>
+    <div class="container-fluid"> 
+	<div class="row">
+		<div class="col-md-3">
+			<br><img src="images/BMKG.png" width="90px" height="90px" style="display: block; margin: auto;">
+		</div>
+		<div class="col-md-9">
+			<h3>
+				<br>SISTEM MONITORING BUILT-IN-TEST EQUIPMENT(BITE) 
+				<br>RADAR CUACA ENTERPRISE-ELECTRONICS-CORPORATION(EEC)
+			</h3>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<div class="container-fluid"> 
+	<div class="row">
+		<div class="col-md-2">
+		<!-- Menampilkan Hari, Bulan dan Tahun -->
+		<script type='text/javascript'>
+			<!--
+			var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+			var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
+			var date = new Date();
+			var day = date.getDate();
+			var month = date.getMonth();
+			var thisDay = date.getDay(),
+			    thisDay = myDays[thisDay];
+			var yy = date.getYear();
+			var year = (yy < 1000) ? yy + 1900 : yy;
+			document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
+			//-->
+		</script>
+	<div id="clock"></div>
+		<script type="text/javascript">
+		<!--
+		function showTime() {
+		    var a_p = "";
+		    var today = new Date();
+		    var curr_hour = today.getHours();
+		    var curr_minute = today.getMinutes();
+		    var curr_second = today.getSeconds();
+		    if (curr_hour < 12) {
+		        a_p = "AM";
+		    } else {
+		        a_p = "PM";
+		    }
+		    if (curr_hour == 0) {
+		        curr_hour = 12;
+		    }
+		    if (curr_hour > 12) {
+		        curr_hour = curr_hour - 12;
+		    }
+		    curr_hour = checkTime(curr_hour);
+		    curr_minute = checkTime(curr_minute);
+		    curr_second = checkTime(curr_second);
+		 document.getElementById('clock').innerHTML=curr_hour + ":" + curr_minute + ":" + curr_second + " " + a_p;
+		    }
+ 
+		function checkTime(i) {
+		    if (i < 10) {
+		        i = "0" + i;
+		    }
+		    return i;
+		}
+		setInterval(showTime, 500);
+		//-->
+		</script>
+		</div>
+		<div class="col-md-8"></div>
+		<div class="col-md-1">
+			<div class="btn-group" role="group" aria-label="Basic example">
+  			<button type="button" class="btn btn-secondary">Home</button>
+ 			<a class="btn btn-secondary" href="login1.html" role="button">Logout !</a></button>
+			</div></div>
+</div>
+		</div>
+
+	<div class="row">
+		<div class="col-md-3">
+			<br><img src="images/bite.png" width="90px" height="90px" style="display: block; margin: auto;" class="border">
+			<br><button type="button" class="btn btn-dark" style="display: block; margin: auto;">
+				<a class="btn btn-dark" href="login1.html" role="button">BITE RADAR</a>
+			</button>
+		</div>
+		<div class="col-md-3">
+			<br><img src="images/laporan.png" width="90px" height="90px" style="display: block; margin: auto;">
+			<br><button type="button" class="btn btn-dark" style="display: block; margin: auto;">
+				<a class="btn btn-dark" href="login1.html" role="button">Laporan</a>
+			</button>
+		</div>
+		<div class="col-md-3">
+			<br><img src="images/db.png" width="90px" height="90px" style="display: block; margin: auto;">
+			<br><button type="button" class="btn btn-dark" style="display: block; margin: auto;">
+				<a class="btn btn-dark" href="login1.html" role="button">Database</a>
+			</button>
+		</div>
+		<div class="col-md-3">
+			<br><img src="images/profil.png" width="90px" height="90px" style="display: block; margin: auto;">
+			<br><button type="button" class="btn btn-dark" style="display: block; margin: auto;">
+				<a class="btn btn-dark" href="login1.html" role="button">Edit Profil</a>
+			</button>
+		</div>
+	</div>
+	<br>
+	<br
+	<div class="row">
+		<div class="col-md-12">
+			<h4><center>Stasiun Meteorologi Supadio Pontianak</center>
+			</h4>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			 <center><p class="mt-5 mb-3 text-muted">&copy; 2020-Radar EEC BMKG</p></center>
+
+		</div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js">
+    </script>
+  </body>
+</html>
